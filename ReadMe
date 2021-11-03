@@ -1,0 +1,69 @@
+
+Please refer uploaded doc ReadMe doc file(ReadMe_Assignment) for visual representation elase follow bellow steps:- 
+
+1)Please clone the project and run the application locally using – ng serve
+2)Open localhost:4200 on crome or any other browser
+3)You will redirect to bellow page –
+4)Then enter valid details as bellow:-
+Test User Details (If you are not using your own :-
+Email:- ani@gmail.com  Password:- animesh#Delhid 
+1)Email:- Must enter any Email id provide in below user api as entered  email id is mapped with backend Email and if similar email id found user will redirect to home page as logged  in user .You can see that logged in user Username details on logged home page
+Email:- ani@gmail.com  
+2)Password:- password you can use any as per your choice but password is between 8 to 16 character and required. Password also contains 1 Uppercase and lowercase characters.
+Password:- animesh#Delhid
+
+API:- https://my-json-server.typicode.com/bokadedarvin/AngularDeveloperSample/users
+[
+  {
+    "id": "1",
+    "firstName": "Animesh",
+    "lastName": "Roy",
+    "email": "ani@gmail.com",
+    "age": 21,
+    "companyId": "1"
+  },
+  {
+    "id": "2",
+    "firstName": "Rahul",
+    "lastName": "Sharma",
+    "email": "rahul@gmail.com",
+    "age": 20,
+    "companyId": "1"
+  },
+  {
+    "id": "3",
+    "firstName": "Mark",
+    "lastName": "Tyson",
+    "email": "lipon21@gmail.com",
+    "age": 22,
+    "companyId": "1"
+  },
+  {
+    "id": "4",
+    "firstName": "Saurav",
+    "lastName": "Kumar",
+    "email": "saurav@gmail.com",
+    "age": 24,
+    "companyId": "1"
+  }
+]
+
+5)Invalid Credentials will show error message as : Invalid Credentials :-
+ 
+6)Any field empty then will get proper message for that in css as well in text format:-
+ 
+7)After login successfully as per above shared credentials .You ll redirect to home screen:-
+ 
+1)You can see that company details section -
+  1.All the company details getting from backend api.
+2)You can see that  contact details section -
+1]All the contact details getting from backend api.
+2]All the edit , update, delete functionality calling backend api
+Details about Subsection:-
+1.Add New Contact:- In contact details there is plus button :- on clicking on that button you can add new contact details with required validation
+ 
+2.Edit Contact:-In contact details there is edit button ,On clicking on that you can edit existing contact .
+ 
+3.Delete Contact:-In contact details section there is remove button, On clicking on that you can remove the contact from the list.
+
+8)Logout button:- Once clicked on logout user ll logout successfully and redirect to login page
